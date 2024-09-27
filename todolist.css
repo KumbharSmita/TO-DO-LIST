@@ -1,0 +1,55 @@
+/* styles.css */
+
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling */
+.container {
+    margin-top: 50px;
+}
+
+/* Title styling */
+.title {
+    color: #333;
+    font-size: 2rem;
+}
+
+/* Input and Button */
+.input-box {
+    padding: 10px;
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+.add-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background-color: #45a049;
+}
+
+/* Task list */
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list li {
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px auto;
+    width: 60%;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
